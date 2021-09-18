@@ -7,6 +7,7 @@
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -56,17 +57,17 @@
         <section class="section portfolio ">
             <h1 hidden>Наши работы</h1>
         <div class="container filters">
-            <ul class="workslist list">
-            <li class="olllist filter"> <button type="button" class="btn">Все</button></li>
-            <li class="websites-list filter"> <button type="button" class="btn">Веб-сайты</button></li>
-            <li class="apps-list filter"> <button type="button" class="btn">Приложения</button></li>
-            <li class="disign-list filter"> <button type="button" class="btn">Дизайн</button></li>
-            <li class="marketing-list filter"> <button type="button" class="btn">Маркетинг</button></li>
+            <ul class="filters__workslist list">
+            <li class="filters__unit"> <button type="button" class="btn">Все</button></li>
+            <li class="filters__unit"> <button type="button" class="btn">Приложения</button></li>
+            <li class="filters__unit"> <button type="button" class="btn">Веб-сайты</button></li>
+            <li class="filters__unit"> <button type="button" class="btn">Маркетинг</button></li>
+            <li class="filters__unit"> <button type="button" class="btn">Дизайн</button></li>
         </ul>
 
             <ul class="portfolio-list list">
-            <li class="tehnolist item">
-                <a href="" class="tehnolink link pics">
+            <li class="portfolio-list__item">
+                <a href="" class="portfolio-list__link link">
                     <div class="relative">
                         <img class="pictures" src="./images/img-8.jpg" alt="Открытый экран ноутбука" width="370" height="294">
                     <p class="prgf">Технокряк это современная площадка 
@@ -74,55 +75,55 @@
                         цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                     </div>
                     <div class="card-content">
-                        <h2 class="tehno-title title-portfolio link-portfolio link">Технокряк</h2>
-                    <p class="tehno-text text-portfolio link-portfolio link">Веб-сайт</p>
+                        <h2 class="card-content__title">Технокряк</h2>
+                    <p class="card-content__text">Веб-сайт</p>
                     </div>
                 </a>
             </li>
 
-            <li class="poster-list item">
-                <a href="" class="poster-link link pics">
+            <li class="portfolio-list__item">
+                <a href="" class="poster-link link portfolio-list__link">
                     <div class="relative">
                         <img class="pictures" src="./images/img-9.jpg" alt="Два баскетболиста в игре" width="370" height="294">
                         <p class="prgf">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus in doloremque dolorum rerum laudantium quas velit pariatur fuga perspiciatis? Vero?</p>
                     </div>
                     
                     <div class="card-content">
-                        <h2 class="poster-title title-portfolio link-portfolio link">Постер <span lang="en">Orlean vs Golden Star</span></h2>
-                        <p class="poster-text text-portfolio link-portfolio link">Дизайн</p>
+                        <h2 class="card-content__title">Постер <span lang="en">Orlean vs Golden Star</span></h2>
+                        <p class="card-content__text">Дизайн</p>
                     </div>
                 </a>
             </li>
 
-            <li class="restoran-list item">
-                <a href="" class="restoran-link link pics">
+            <li class="portfolio-list__item">
+                <a href="" class="restoran-link link portfolio-list__link">
                     <div class="relative">
                        <img class="pictures" src="./images/img-10.jpg" alt="Логотип ресторана в виде серой рыбы и надписи" width="370" height="294">
                     <p class="prgf">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto natus doloremque sapiente expedita, perspiciatis debitis delectus eveniet provident eos harum facere commodi amet a repellat quas sit! Veniam, quos dolore!</p>
                     </div>
                     
                     <div class="card-content">
-                        <h2 class="restoran-title title-portfolio link-portfolio link">Ресторан<span lang="en"> Seafood</span></h2>
-                        <p class="restoran-text text-portfolio link-portfolio link">Приложение</p>
+                        <h2 class="card-content__title">Ресторан<span lang="en"> Seafood</span></h2>
+                        <p class="card-content__text">Приложение</p>
                     </div>
                 </a>
             </li>
 
-            <li class="list-marketing item">
-                <a href="" class="marketing-link link pics">
+            <li class="portfolio-list__item">
+                <a href="" class="marketing-link link portfolio-list__link">
                     <div class="relative">
                         <img class="pictures" src="./images/img-11.jpg" alt="Черные наушники" width="370" height="294">
                         <p class="prgf">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, voluptatem fugiat amet, omnis, debitis in magnam itaque non et inventore reprehenderit quasi. Deserunt itaque totam ipsam facilis ipsa necessitatibus veniam, perferendis esse labore. Ipsam velit doloribus vero quam harum nesciunt possimus nemo dolorem, illo nihil laudantium iste beatae. Voluptatem, qui!</p>
                     </div>
                     <div class="card-content">
-                        <h2 class="marketing-title title-portfolio link-portfolio link">Проэкт <span lang="en">Prime</span></h2>
-                        <p class="marketing-text text-portfolio link-portfolio link">Маркетинг</p>
+                        <h2 class="card-content__title">Проэкт <span lang="en">Prime</span></h2>
+                        <p class="card-content__text">Маркетинг</p>
                     </div>
                 </a>
             </li>
 
-            <li class="ap-list item">
-                <a href="" class="ap-link link pics">
+            <li class="portfolio-list__item">
+                <a href="" class="ap-link link portfolio-list__link">
                     <div class="relative">
                        <img class="pictures" src="./images/img-12.jpg" alt="Две картонные коробки" width="370" height="294">
                         <p class="prgf">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу
@@ -131,14 +132,14 @@
                     </div>
                     
                     <div class="card-content">
-                        <h2 class="ap-title title-portfolio link-portfolio link">Проэкт<span lang="en"> Boxes</span></h2>
-                        <p class="ap-text text-portfolio link-portfolio link">Приложение</p>
+                        <h2 class="card-content__title">Проэкт<span lang="en"> Boxes</span></h2>
+                        <p class="card-content__text">Приложение</p>
                     </div>
                 </a>
             </li>
 
-            <li class="site-list item">
-                <a href="" class="site-link link pics">
+            <li class="portfolio-list__item">
+                <a href="" class="site-link link portfolio-list__link">
                     <div class="relative">
                         <img class="pictures" src="./images/img-13.jpg" alt="Монитор на которой изображена веб-страница" width="370" height="294">
                         <p class="prgf">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу
@@ -147,14 +148,14 @@
                     </div>
                     
                     <div class="card-content">
-                        <h2 class="title-site title-portfolio link-portfolio link" lang="en">Inspiration has no Borders</h2>
-                        <p class="site-text text-portfolio link-portfolio link">Веб-сайт</p>
+                        <h2 class="card-content__title" lang="en">Inspiration has no Borders</h2>
+                        <p class="card-content__text">Веб-сайт</p>
                     </div>
                 </a>
             </li>
 
-            <li class="list-disign item">
-                <a href="" class="dising-link link pics">
+            <li class="portfolio-list__item">
+                <a href="" class="dising-link link portfolio-list__link">
                 <div class="relative">
                     <img class="pictures" src="./images/img-14.jpg" alt="Открытая книга" width="370" height="294">
                     <p class="prgf">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу
@@ -162,14 +163,14 @@
                         цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                 </div> 
                     <div class="card-content">
-                        <h2 class="title-disign title-portfolio link-portfolio link">Издание <span lang="en"> Limited Edition</span></h2>
-                        <p class="disign-text text-portfolio link-portfolio link">Дизайн</p>
+                        <h2 class="card-content__title">Издание <span lang="en"> Limited Edition</span></h2>
+                        <p class="card-content__text">Дизайн</p>
                     </div>
                 </a>
             </li>
 
-            <li class="market-list item">
-                <a href="" class="market-link link pics">
+            <li class="portfolio-list__item">
+                <a href="" class="market-link link portfolio-list__link">
                     <div class="relative">
                     <img class="pictures" src="./images/img-15.jpg" alt="Бирка" width="370" height="294">
                         <p class="prgf">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу
@@ -177,14 +178,14 @@
                             цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                     </div>
                     <div class="card-content">
-                        <h2 class="title-market title-portfolio link-portfolio link">Проект <span lang="en">LAB</span></h2>
-                        <p class="market-text text-portfolio link-portfolio link">Маркетинг</p>
+                        <h2 class="card-content__title">Проект <span lang="en">LAB</span></h2>
+                        <p class="card-content__text">Маркетинг</p>
                     </div>
                 </a> 
             </li>
 
-            <li class="appilist item">
-                <a href="" class="appilist-link link pics">
+            <li class="portfolio-list__item">
+                <a href="" class="appilist-link link portfolio-list__link">
                     <div class="relative">
                     <img class="pictures" src="./images/img-16.jpg" alt="Открытый ноутбук за которым работает пользователь" width="370" height="294">
                         <p class="prgf">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу
@@ -192,8 +193,8 @@
                             цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                     </div>
                     <div class="card-content">
-                        <h2 class="appi-title title-portfolio link-portfolio link" lang="en">Growing Business</h2>
-                        <p class="appi-text text-portfolio link-portfolio link">Приложение</p>
+                        <h2 class="card-content__title" lang="en">Growing Business</h2>
+                        <p class="card-content__text">Приложение</p>
                     </div>
                 </a>    
             </li>
